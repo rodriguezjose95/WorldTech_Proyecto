@@ -39,6 +39,8 @@
 			class="sr-only">Siguiente</span>
 		</a>
 	</div>
+	
+	
 
 	<%@include file='layouts/footer.jsp'%>
 </body>
