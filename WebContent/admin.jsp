@@ -6,20 +6,17 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<title>Login</title>
-	<link rel="stylesheet" href="css/style.css">
 	<%@include file='layouts/layouts.jsp'%>
 </head>
 <body class="bg-light">
 	<br><br><br><br><br>
-	<div class="row">
-		<div class="col-sm-4"></div>
-		<div class="col-sm-4">
+		<div class="login-sistem">
 			<div class="card bg-info">
 				<div class="card card-header">
 					<h3 class="text-white text-center">WorldTech Sistem</h3>
 				</div>
 				<div class="card card-body bg-white">
-					<form action="<?php $_SERVER['PHP_SELF']; ?>" method="post" class="w-75 m-auto">
+					<form action="" method="post" class="w-75 m-auto">
 						<input type="text" class="form-control form-control-sm" name="usuario" placeholder="Usuario" style="margin-bottom: 10px;" required>
 						<div class="input-group" style="margin-bottom: 10px;">
 							<input type="password" class="form-control form-control-sm" name="password" id="password" placeholder="Contraseña" required style="position: relative;">
@@ -32,8 +29,6 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-4"></div>
-	</div>
 	
 	<script type="text/javascript">
 	$(document).ready(function(){	

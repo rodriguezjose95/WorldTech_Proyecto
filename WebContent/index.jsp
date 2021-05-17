@@ -4,13 +4,12 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Login | Libreria Coquito</title>
+<title>Bienvenido a WorldTech</title>
 <%@include file='layouts/layouts.jsp'%>
 </head>
 <body>
 	<%@include file='layouts/header.jsp'%>
-	
-	<div id="carouselExampleIndicators" class="carousel slide"
+	<div id="carouselExampleIndicators" class="carousel slide fix-menu"
 		data-ride="carousel">
 		<ol class="carousel-indicators">
 			<li data-target="#carouselExampleIndicators" data-slide-to="0"
@@ -20,13 +19,16 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="img/Encabezado/banner-weblicencias.jpg" alt="First slide">
+				<img class="d-block w-100"
+					src="img/Encabezado/banner-weblicencias.jpg" alt="First slide">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="img/Encabezado/bannner-xiaomi.png" alt="Second slide">
+				<img class="d-block w-100" src="img/Encabezado/bannner-xiaomi.png"
+					alt="Second slide">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="img/Encabezado/banner-consolas.jpg" alt="Third slide">
+				<img class="d-block w-100" src="img/Encabezado/banner-consolas.jpg"
+					alt="Third slide">
 			</div>
 		</div>
 		<a class="carousel-control-prev" href="#carouselExampleIndicators"
@@ -39,7 +41,7 @@
 			class="sr-only">Siguiente</span>
 		</a>
 	</div>
-	
+
 	
 
 	<%@include file='layouts/footer.jsp'%>
