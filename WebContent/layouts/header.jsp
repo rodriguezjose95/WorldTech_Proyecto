@@ -21,7 +21,7 @@
 				<li class="nav-item dropdown active">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="catalogo.jsp">Celulares</a>
+						<a class="dropdown-item" href="crudprod?opcion=l">Celulares</a>
 						<a class="dropdown-item" href="#">PC's</a>
 						<a class="dropdown-item" href="#">Laptops</a>
 						<a class="dropdown-item" href="#">Consolas</a>
