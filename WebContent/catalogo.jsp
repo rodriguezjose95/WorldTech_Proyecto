@@ -8,7 +8,7 @@
 <head>
 <meta charset="ISO-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Catalogo</title>
+<title>Catálogo</title>
 <%@include file='layouts/layouts.jsp'%>
 </head>
 <body>
@@ -30,7 +30,7 @@
 				<div class="product">
 					<div class="product-content">
 						<div class="product-img">
-							<img src="img/COMPUTADORAS/Amd/pc-amd-r3.jpg" alt="sin imagen">
+							<img src="<%=x.getUrl_img() %>" alt="sin imagen">
 						</div>
 						<div class="product-btns">
 							<button type="button" class="btn-cart">

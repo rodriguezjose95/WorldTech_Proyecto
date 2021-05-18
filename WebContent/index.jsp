@@ -19,8 +19,7 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100"
-					src="img/Encabezado/banner-weblicencias.jpg" alt="First slide">
+				<img class="d-block w-100" src="img/Encabezado/banner-weblicencias.jpg" alt="First slide">
 			</div>
 			<div class="carousel-item">
 				<img class="d-block w-100" src="img/Encabezado/bannner-xiaomi.png"
@@ -41,8 +40,6 @@
 			class="sr-only">Siguiente</span>
 		</a>
 	</div>
-
-	
 
 	<%@include file='layouts/footer.jsp'%>
 </body>
