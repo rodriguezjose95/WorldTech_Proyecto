@@ -19,14 +19,15 @@
 		</ol>
 		<div class="carousel-inner">
 			<div class="carousel-item active">
-				<img class="d-block w-100" src="img/encabezados/banner-weblicencias.jpg" alt="First slide">
+				<img class="d-block w-100"
+					src="img/Encabezado/banner-weblicencias.jpg" alt="First slide">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="img/encabezados/bannner-xiaomi.png"
+				<img class="d-block w-100" src="img/Encabezado/bannner-xiaomi.png"
 					alt="Second slide">
 			</div>
 			<div class="carousel-item">
-				<img class="d-block w-100" src="img/encabezados/banner-consolas.jpg"
+				<img class="d-block w-100" src="img/Encabezado/banner-consolas.jpg"
 					alt="Third slide">
 			</div>
 		</div>
@@ -41,9 +42,8 @@
 		</a>
 	</div>
 
-	<div class="row text-center text-white">
-<div class="col-12 my-2">
-<%@include file='layouts/footer.jsp'%>
-</div>
+	
+
+	<%@include file='layouts/footer.jsp'%>
 </body>
 </html>

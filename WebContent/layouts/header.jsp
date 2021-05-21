@@ -1,7 +1,7 @@
 
 	<nav class="navbar navbar-expand-lg navbar-dark bg-info fixed-top">
 		<a class="navbar-brand" href="#">
-			<img src="img/encabezados/Logo.png" height="40px;" alt="">
+			<img src="img/Encabezado/Logo.png" height="40px;" alt="">
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarSupportedContent"
@@ -16,7 +16,7 @@
 					<a class="nav-link" href="index.jsp">Inicio</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="nosotros.jsp">Nosotros</a>
+					<a class="nav-link" href="#">Nosotros</a>
 				</li>
 				<li class="nav-item dropdown active">
 					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Productos</a>
@@ -45,7 +45,7 @@
 					<a class="nav-link" href="#">Ofertas</a>
 				</li>
 				<li class="nav-item active">
-					<a class="nav-link" href="contacto.jsp">Contactanos</a>
+					<a class="nav-link" href="#">Contactanos</a>
 				</li>
 			</ul>
 			<form class="form-inline my-2 my-lg-0">
