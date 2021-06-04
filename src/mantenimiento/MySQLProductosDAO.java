@@ -9,7 +9,7 @@ import interfaces.ProductoInterface;
 import model.Productos;
 import utils.MySQLConexion8;
 
-public class GestionProductos implements ProductoInterface{
+public class MySQLProductosDAO implements ProductoInterface{
 
 	@Override
 	public int registrar(Productos p) {

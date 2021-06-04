@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import interfaces.ClienteInterface;
 import model.Clientes;
 
-public class GestionClientes implements ClienteInterface{
+public class MySQLClientesDAO implements ClienteInterface{
 
 	@Override
 	public int registrar(Clientes c) {

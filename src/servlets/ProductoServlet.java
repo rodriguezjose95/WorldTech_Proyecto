@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import mantenimiento.GestionProductos;
+import mantenimiento.MySQLProductosDAO;
 import model.Productos;
 
 /**
@@ -67,7 +67,7 @@ public class ProductoServlet extends HttpServlet {
 	private void listado(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("Entro al listado de Producto");
 		//1. obtener un lsitado de los productos
-		ArrayList <Productos> lista = new GestionProductos().listado();
+		ArrayList <Productos> lista = new MySQLProductosDAO().listado();
 		//2. enviar el listado como atributo al JSP
 		request.setAttribute("lstProductos", lista);
 		//3. ir a la pag
